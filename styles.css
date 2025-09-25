@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  background: #f8f9fa;
+}
+
+h1,
+h2 {
+  color: #d90429;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.grid-cards .card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: #fff;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.grid-cards .card:hover {
+  transform: scale(1.03);
+}
+.grid-cards .card h5 {
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+/*# sourceMappingURL=styles.css.map */
