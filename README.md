@@ -1,1 +1,0 @@
-# pruebatienda.github.io
